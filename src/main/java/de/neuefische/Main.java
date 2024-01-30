@@ -37,5 +37,8 @@ public class Main {
 
         car2.accelerate(30);
         System.out.println(car2.speed);
+
+        Person person = new Person("Hodor", 42, "männlich");
+        person.introduceYourself();
     }
 }
