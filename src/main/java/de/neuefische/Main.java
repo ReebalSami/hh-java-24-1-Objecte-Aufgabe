@@ -26,5 +26,7 @@ If you like, also work on this optional bonus task.
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world2!");
+        Car auto = new Car();
+        //car.startEngine();
     }
 }
