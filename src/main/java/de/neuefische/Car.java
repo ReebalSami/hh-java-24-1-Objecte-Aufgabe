@@ -6,7 +6,15 @@ public class Car {
     String color;
     int yearOfManufacture;
 
+    float speed;
+
+
+
     void startEngine(){
         System.out.println("car started!!!");
+    }
+
+    float accelerate(){
+        speed = float
     }
 }
