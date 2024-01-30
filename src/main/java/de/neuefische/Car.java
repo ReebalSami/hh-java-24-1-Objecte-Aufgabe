@@ -9,6 +9,15 @@ public class Car {
     float speed;
 
 
+        public Car(String brand, String model, String color, int yearOfManufacture ) {
+            this.brand = brand;
+            this.model = model;
+            this.color = color;
+            this.yearOfManufacture = yearOfManufacture;
+        }
+
+
+
 
     void startEngine(){
         System.out.println("car started!!!");

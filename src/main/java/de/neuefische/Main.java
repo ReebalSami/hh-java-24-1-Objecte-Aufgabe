@@ -26,10 +26,12 @@ If you like, also work on this optional bonus task.
 public class Main {
     public static void main(String[] args) {
 
-        Car car = new Car();
+        Car car = new Car("Mustang", "Shelby GT 500", "silver", 1965);
         car.startEngine();
+        System.out.println("My car is: " + car.brand + " " + car.model + " color " + car.color + " " +" from: " + car.yearOfManufacture);
 
-        Car car2 = new Car();
+        Car car2 = new Car("BMW", "i5", "red", 2024);
+        System.out.println("This is my: " + car2.brand + " " + car2.model + " color " + car2.color + " from: " + car2.yearOfManufacture );
         car2.accelerate(50);
         System.out.println(car2.speed);
 
