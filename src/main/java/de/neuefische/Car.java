@@ -14,7 +14,7 @@ public class Car {
         System.out.println("car started!!!");
     }
 
-    float accelerate(){
-        speed = float
+    void accelerate(float speed){
+        this.speed += speed;
     }
 }

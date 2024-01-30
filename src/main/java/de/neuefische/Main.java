@@ -29,6 +29,11 @@ public class Main {
         Car car = new Car();
         car.startEngine();
 
-        Car car2 =
+        Car car2 = new Car();
+        car2.accelerate(50);
+        System.out.println(car2.speed);
+
+        car2.accelerate(30);
+        System.out.println(car2.speed);
     }
 }
